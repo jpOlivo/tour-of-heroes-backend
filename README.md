@@ -1,2 +1,5 @@
 # tour-of-heroes-backend
-API Rest for tour of heroes Angular tutorial
+
+It is an alternative implementation for In-memory Web API module used in the Angular Tutorial: Tour of Heroes
+
+It exposes an API Rest for be consumed by Angular Client app using Spring Boot and MongoDB
