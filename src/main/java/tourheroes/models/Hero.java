@@ -7,14 +7,20 @@ import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.index.Indexed;
 import org.springframework.data.mongodb.core.mapping.Document;
 
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
+
 @Document(collection = "heroes")
+@ApiModel(description = "Representation of a Hero.")
 public class Hero {
 	@Id
+	@ApiModelProperty(position = 1, value = "The id of Hero.")
 	private String id;
 
 	@NotBlank
 	@Size(max = 100)
 	@Indexed(unique = true)
+	@ApiModelProperty(position = 2, value = "The name of Hero.")
 	private String name;
 
 	public Hero() {
