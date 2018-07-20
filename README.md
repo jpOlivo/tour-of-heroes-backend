@@ -1,11 +1,11 @@
-# Tour of heroes - backend
+# Tour of heroes - Backend
 
 The app developed following the [Angular Tutorial: Tour of Heroes](https://angular.io/tutorial) uses both a [Mock](https://angular.io/tutorial/toh-pt2) and a [Simulated data server](https://angular.io/tutorial/toh-pt6) in order to fetch the data of heroes.
 
 This implementation is a real backend built on Java using Spring Boot and serves the data of heroes (persisted on a Local MongoDB instance) through of an API Rest.
  
 
-# API REST
+## API Rest
 The services offered enable to perform CRUD operations on a local MongoDB instance
 
 ![img](https://i.imgur.com/eU0eM7q.png)
@@ -13,10 +13,10 @@ The services offered enable to perform CRUD operations on a local MongoDB instan
 There is a docs of this API available in [http://localhost:8080/swagger-ui.html#/](http://localhost:8080/swagger-ui.html#/)
 
 
-# Running the app
+## Running the app
 From Eclipse IDE `tourheroes.Application -> Run As -> Java Application`
 
-# Invoking services
+## Invoking services
 
 1- Get __/api/heroes__
 
